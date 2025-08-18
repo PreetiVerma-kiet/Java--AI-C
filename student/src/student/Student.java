@@ -5,7 +5,7 @@ public class Student {
 	String Name;
 	String Department;
 	char section;
-	
+	static String collegename="KIET";
 	public void studying(int No_of_hours) {
 		
 		System.out.println("the student is studying for"+No_of_hours);
