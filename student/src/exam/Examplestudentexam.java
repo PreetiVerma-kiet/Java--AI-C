@@ -6,7 +6,7 @@ public class Examplestudentexam extends Student {
 	Student s1 = new Student (5, "Priya", "AIML", 'C');
 	Examplestudentexam obj = new Examplestudentexam();
 	obj.Department="CS";
-	obj.section='e';
+	//obj.section='e';
 
 
 }

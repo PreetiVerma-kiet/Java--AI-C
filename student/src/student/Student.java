@@ -1,5 +1,5 @@
 package student;
-  class Student {
+  public class Student {
 	public int RollNumber;
 	private String Name;
 	protected String Department;
