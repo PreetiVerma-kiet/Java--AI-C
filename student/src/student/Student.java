@@ -1,8 +1,8 @@
 package student;
   public class Student {
-	public int RollNumber;
-	private String Name;
-	protected String Department;
+	 int RollNumber;
+	 String Name;
+	 String Department;
 	char section;
 	static String collegename="KIET"; // class variable
 	
@@ -36,6 +36,9 @@ package student;
 		System.out.println("the name of the student is"+Name + "the college name is"+collegename);
 		System.out.println("The department is"+ Department+ "and section is"+section);
 	}
+	public void payFee() {
+		System.out.println("The student"+Name+"has paid the tution fee");
+		}
 	
 
 }
