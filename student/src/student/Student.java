@@ -1,8 +1,8 @@
 package student;
   public class Student {
-	 int RollNumber;
-	 String Name;
-	 String Department;
+	 private int RollNumber;
+	 private String Name;
+	 private String Department;
 	char section;
 	static String collegename="KIET"; // class variable
 	
