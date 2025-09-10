@@ -13,13 +13,13 @@ public class ExceptionDemo {
 		}catch(ArithmeticException e) {
 			System.out.println("The exception is handled");
 		}
-		System.out.println("5");
-		System.out.println("6");
-		
+		//System.out.println("5");
+		//System.out.println("6");
+		finally {
+			System.out.println("7");
+			System.out.println("8");
 		}
-	finally {
-		System.out.println("7");
-		System.out.println("8");
-	}
+		}
+	
 
 }
