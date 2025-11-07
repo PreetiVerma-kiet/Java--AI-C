@@ -10,7 +10,7 @@ public class TestStudent {
 		RegularStudent rs = new RegularStudent(1, "Priya", "AIML", 'G', 80, "H506");
 		//rs.displayInfo();
 		//rs.payFee();
-		System.out.println(hs.Name);
+		//System.out.println(hs.Name);
 		hs.payFee();
 		//student1.payFee();
 		
